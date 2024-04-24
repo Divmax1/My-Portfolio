@@ -7,6 +7,13 @@
 html{
   scroll-behavior: smooth;
 }
+.container{
+  background-image: url(background-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1366px,2816px;
+  background-attachment: fixed;
+}
 header{
   height: 70px;
   position: fixed;
@@ -31,13 +38,58 @@ header{
 .right{
   margin-right: 30px;
 }
-a{
+.header-link{
   text-decoration: none;
-  display: inline-block;
   margin-right: 30px;
   color: white;
   font-weight: bold;
+  transition: 0.3s ease;
+  font-size: 17px;
+  opacity: 0.7;
 }
-a:hover{
-  
+.header-link:hover{
+  font-size: larger;
+  opacity: 1;
+}
+.header-link:active{
+  color: gold;
+}
+.catch-phrase{
+  margin-top: 70px;
+  font-size: 5em;
+  text-align: center;
+  font-family: "nunito", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;}
+  .h1{
+    overflow: hidden;
+    font-size: 100%;
+  }
+  .old-text,
+.new-text {
+  display: block;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out;
+}
+.old-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
+}
+.new-text {
+  height: 0;
+  opacity: 0;
+  width: 0;
+}
+.catch-phrase:hover .old-text {
+  height: 0px;
+  opacity: 0;
+  width: 0px;
+}
+.catch-phrase:hover .new-text {
+  height: auto;
+  opacity: 1;
+  width: auto;
 }
