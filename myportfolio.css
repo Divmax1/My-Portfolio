@@ -26,6 +26,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: rgb(12, 6, 88);
+  z-index: 100;
 }
 .left{
   height: 85%;
@@ -173,7 +174,7 @@ header{
   border-radius: 4px;
   line-height: 40px;
   font-family: "kalam", arial;
-  font-style: italic;
+  font-size: 18px;
   box-shadow: 5px 5px 5px rgba(255,255,255,0.9);
 }
 .second-text{
@@ -186,6 +187,168 @@ header{
   border-radius: 4px;
   line-height: 40px;
   font-family: "kalam", arial;
-  font-style: italic;
+  font-size: 18px;
   box-shadow: 5px 5px 5px rgba(255,255,255,0.9);
+}
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.project-text{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "nunito", impact;
+  font-weight: 700;
+}
+.project-video{
+  height: 500px;
+}
+.socials{
+  margin-left: 150px;
+  margin-top: 100px;
+  padding-top: 70px;
+}
+.ul{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  row-gap: 200px;
+  column-gap: 200px;
+ 
+}
+.a,.ul{
+  text-decoration: none;
+  list-style-type: none;
+  color: gold;
+  -webkit-text-stroke-color: rgb(12, 6, 88);
+  -webkit-text-stroke-width: 1px;
+  font-style: impact, arial;
+  font-size: 30px;
+  font-weight: 700;
+}
+.socials-button{
+  padding: 25px 50px;
+  cursor: pointer;
+}
+.facebook{
+  background-image: url(facebook-button.jpeg);
+  background-position: center;
+  border: 2px solid rgb(24, 119, 242);
+  border-radius: 2px;
+}
+.facebook:hover{
+  box-shadow: 0px 0px 10px 5px rgb(24, 119, 242);
+}
+.instagram{
+  background-image: url(instagram-button.jpeg);
+  background-position: center;
+  border: 2px solid rgb(205, 72, 107);
+  border-radius: 2px;
+}
+.instagram:hover{
+  box-shadow: 0px 0px 10px 5px rgb(205, 72, 107);
+}
+.twitter{
+  background-image: url(twitter-button.jpeg);
+  background-position: center;
+  border: 2px solid rgb(29 161 242);
+  border-radius: 2px;
+}
+.twitter:hover{
+  box-shadow: 0px 0px 10px 5px rgb(29 161 242);
+}
+.github{
+  background-image: url(github-button.jpeg);
+  background-position: center;
+  border: 2px solid rgb(43,49,55);
+  border-radius: 2px;
+}
+.github:hover{
+  box-shadow: 0px 0px 10px 5px rgb(43,49,55);
+}
+.linkedin{
+  background-image: url(linkedin-button.jpeg);
+  background-position: center;
+  border: 2px solid blue;
+  border-radius: 2px;
+}
+.linkedin:hover{
+  box-shadow: 0px 0px 10px 5px blue;
+}
+.youtube{
+  background-image: url(youtube-button.jpeg);
+  background-position: center;
+  border: 2px solid red;
+  border-radius: 2px;
+}
+.youtube:hover{
+  box-shadow: 0px 0px 10px 5px red;
+}
+.discord{
+  background-image: url(discord-button.jpeg);
+  background-position: center;
+  border: 2px solid purple;
+  border-radius: 2px;
+}
+.discord:hover{
+  box-shadow: 0px 0px 10px 5px purple;
+}
+.telegram{
+  background-image: url(telegram-button.jpeg);
+  background-position: center;
+  border: 2px solid rgb(36, 161, 222);
+  border-radius: 2px;
+}
+.telegram:hover{
+  box-shadow: 0px 0px 10px 5px rgb(36, 161, 222);
+}
+.contact{
+  color: white;
+  background-color: rgb(12, 6, 88);
+  padding: 20px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 200px auto;
+}
+.contact-text{
+  text-align: center;
+  font-size: 30px;
+  font-family: "nunito", impact;
+  margin-bottom: 20px;
+  color: gold;
+}
+.telephone-image,
+.gmail-image{
+  display: inline-block;
+  background-color: white;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+.tel,
+.mail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.backtotop-button{
+  background-color: gold;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 45%;
+}
+.backtotop-button:hover{
+  background-color: rgb(12, 6, 88);
+}
+.backtotop-text{
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(12, 6, 88);
+}
+.backtotop-text:hover{
+  color: gold;
 }
