@@ -6,6 +6,7 @@
 
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 .container{
   background-image: url(background-image.jpg);
@@ -110,25 +111,40 @@ header{
 .images{
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 50px;
 }
-.html-container,
+.html-container{
+  background-image: url(html-logo.png);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  border-radius: 100px;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
 .css-image-container{
-  height: 250px;
-  width: 250px;
-  border-radius: 150px;
-  border: 5px solid gold;
-}
-.html-image,
-.css-image{
-  height: 100%;
-  width: 100%;
-  border-radius: 150px;
-  object-fit: cover;
+  background-image: url(css-logo.png);
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  border-radius: 100px;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
 }
 .my-image-container{
-  width: 360px;
-  height: 360px;
-  border: 
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
 }
 .my-image{
   height: 100%;
@@ -136,4 +152,40 @@ header{
   object-fit: cover;
   border-radius: 10px;
   border: 5px solid rgb(12, 6, 88);
+}
+.html-text{
+  position: absolute;
+  color: black;
+  font-size: 1.5em;
+  font-family: "nunito" ,impact;
+  font-weight: 700;
+}
+.texts{
+  position: relative;
+  margin-bottom: 700px;
+}
+.first-text{
+  position: absolute;
+  right: 100px;
+  background-color: white;
+  color: rgb(12, 6, 88);
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 40px;
+  font-family: "kalam", arial;
+  font-style: italic;
+  box-shadow: 5px 5px 5px rgba(255,255,255,0.9);
+}
+.second-text{
+  position: absolute;
+  transform: translateY(250%);
+  left: 100px;
+  background-color: white;
+  color: rgb(12, 6, 88);
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 40px;
+  font-family: "kalam", arial;
+  font-style: italic;
+  box-shadow: 5px 5px 5px rgba(255,255,255,0.9);
 }
