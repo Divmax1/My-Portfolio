@@ -93,3 +93,47 @@ header{
   opacity: 1;
   width: auto;
 }
+.name{
+  color: gold;
+  font: impact,arial;
+  text-align: center;
+  font-size: 3em;
+}
+.title{
+  color: white;
+  font: "kalam", arial;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+}
+.images{
+  display: flex;
+  justify-content: space-evenly;
+}
+.html-container,
+.css-image-container{
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  border: 5px solid gold;
+}
+.html-image,
+.css-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 150px;
+  object-fit: cover;
+}
+.my-image-container{
+  width: 360px;
+  height: 360px;
+  border: 
+}
+.my-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid rgb(12, 6, 88);
+}
